@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blogspot | Joining Form</title>
+    <link rel="stylesheet" href="..//CSS/stylesheet.css">
+</head>
+<body class="jbg">
+    <header id="header">
+        <div>
+            <h1>Blogspot</h1>
+            <p>Hot spot for a blogger</p>
+        </div>
+    </header>
+    <nav id="nav">
+        <div>
+            <ul>
+                <a href="index.html" class="button"><li>Home</li></a>
+                <a href="about.html" class="button" ><li>About us</li></a>
+                <a href="join.html" class="button" style="font-weight: 600; color: rgb(138, 135, 135);"><li>Join</li></a>
+                <a href="contact.html" class="button" ><li>Contact us</li></a>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="fix-me"><h6>Social Media</h6></div>
+
+    <div id="ann">
+        <h2>Please Fill this form</h2>
+    </div>
+    <form class="form">
+        <div>
+            <label>First Name:</label>
+            <input type="text" name="fname" autocomplete="off" required>
+        </div>
+        <div>
+            <label>Last Name:</label>
+            <input type="text" name="lname" autocomplete="off">
+        </div>
+        <div>
+            <label>Date Of Birth:</label>
+            <input type="date" name="dob" required>
+        </div>
+        <div>
+            <label>Gender:</label>
+            <Select class="gen">
+                <option class="Male">Male</option>
+                <option class="Female">Female</option>
+                <option  class="Others">Others</option></Select>
+        </div>
+        <div>
+            <label>Emai Id:</label>
+            <input type="email" name="email" autocomplete="off" required>
+        </div>
+        <div>
+            <label>Mobile No.:</label>
+            <input type="text" name="mob" autocomplete="off" required>
+        </div>
+        <div>
+            <label>Why Joining Us:</label>
+            <textarea required></textarea>
+        </div>
+        <div>
+            <input type="submit" class="sub" value="SUBMIT" onclick="alert('We will text back you ASAP')">
+        </div>
+    </form>
+    <footer class="joining_footer main_footer">Copyright &copy; 2021 all rights are reverved</footer>
+</body>
+</html>
